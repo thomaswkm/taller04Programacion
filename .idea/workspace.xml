@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b1dbe3b-4f5b-4750-ac4b-7e1e254c1a42" name="Changes" comment="Implementacion Taller">
+    <list default="true" id="5b1dbe3b-4f5b-4750-ac4b-7e1e254c1a42" name="Changes" comment="Diagrama UML">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Computador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dispositivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Notebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pantalla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tablet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tienda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +46,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/thomas/IdeaProjects/taller04Programacion/src/main/java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/evidencias" />
+      <recent name="$PROJECT_DIR$/UML" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687458833218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Diagrama UML">
+      <created>1687462026612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687462026612</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementacion Taller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementacion Taller" />
+    <MESSAGE value="Diagrama UML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diagrama UML" />
   </component>
 </project>
