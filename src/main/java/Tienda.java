@@ -11,11 +11,23 @@ public class Tienda {
 		this.dispositivos = dispositivos;
 	}
 
-	public void agregarCliente(Cliente cliente) {
+	public boolean agregarCliente(Cliente cliente) {
 		if(!this.clientes.contains(cliente)){
 			clientes.add(cliente);
+			return true;
 		}else{
 			System.out.println("El cliente ya se encuentra registrado.");
+			return false;
+		}
+	}
+
+	public boolean agregarDispositivo(Dispositivo dispositivo){
+		if(!this.dispositivos.contains(dispositivo)){
+			dispositivos.add(dispositivo);
+			return true;
+		}else{
+			System.out.println("El dispositivo ya se encuentra en el catálogo");
+			return false;
 		}
 	}
 
@@ -50,5 +62,13 @@ public class Tienda {
 			}
 		}
 		return dispositivosCoinciden;
+	}
+
+	public ArrayList<Cliente> getClientes() {
+		return clientes;
+	}
+
+	public ArrayList<Dispositivo> getDispositivos() {
+		return dispositivos;
 	}
 }

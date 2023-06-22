@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b1dbe3b-4f5b-4750-ac4b-7e1e254c1a42" name="Changes" comment="Diagrama UML">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Computador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dispositivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Notebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pantalla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tablet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tienda.java" afterDir="false" />
+    <list default="true" id="5b1dbe3b-4f5b-4750-ac4b-7e1e254c1a42" name="Changes" comment="Implementacion archivos .java y funcionalidades.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TiendaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tienda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +17,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -47,6 +50,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "/home/thomas/IdeaProjects/taller04Programacion/src/main/java"
   }
 }]]></component>
@@ -56,6 +61,72 @@
       <recent name="$PROJECT_DIR$/evidencias" />
       <recent name="$PROJECT_DIR$/UML" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TiendaTest">
+    <configuration name="TiendaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller04Programacion" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TiendaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TiendaTest.ObtenerInformacionDos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller04Programacion" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TiendaTest" />
+      <option name="METHOD_NAME" value="ObtenerInformacionDos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TiendaTest.buscarPorMarca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller04Programacion" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TiendaTest" />
+      <option name="METHOD_NAME" value="buscarPorMarca" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TiendaTest.buscarPorModeloYTipo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller04Programacion" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TiendaTest" />
+      <option name="METHOD_NAME" value="buscarPorModeloYTipo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TiendaTest.obtenerInformacion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller04Programacion" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TiendaTest" />
+      <option name="METHOD_NAME" value="obtenerInformacion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TiendaTest" />
+        <item itemvalue="JUnit.TiendaTest.buscarPorModeloYTipo" />
+        <item itemvalue="JUnit.TiendaTest.buscarPorMarca" />
+        <item itemvalue="JUnit.TiendaTest.ObtenerInformacionDos" />
+        <item itemvalue="JUnit.TiendaTest.obtenerInformacion" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687462026612</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementacion archivos .java y funcionalidades.">
+      <created>1687463262101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687463262101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +175,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementacion Taller" />
     <MESSAGE value="Diagrama UML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diagrama UML" />
+    <MESSAGE value="Implementacion archivos .java y funcionalidades." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacion archivos .java y funcionalidades." />
   </component>
 </project>
